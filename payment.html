@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./styles/payment.css">
+    <link rel="stylesheet" href="./styles/cart.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+
+
+   
+</head>
+<body>
+    <div class="nav2">
+        <div class="left_nav2">
+    
+               <div> <i class="fas fa-map-marker-alt"></i></div>
+    
+               <div>
+                  <select class="nav2select" onchange="location = this.value;"> 
+                    <option value="index.html">WATCHES</option> 
+                    <option value="men.html">MEN</option> 
+                    <option value="women.html">WOMEN</option> 
+                  </select> 
+               </div>
+    
+               <div>
+                <select class="nav2select" onchange="location = this.value;"> 
+                  <option value="index.html">SMART & AUDIO</option> 
+                  <option value="men.html">Smart Bands</option> 
+                  <option value="women.html">Wireless Audio</option> 
+                </select> 
+             </div>
+             <div>
+                 <a href="eyewear.html">EYEWEAR</a>
+             </div>
+       </div>
+     
+       <div class="right_nav2">
+           <div id="logo">
+              <img src="https://www.fastrack.in/wps/wcm/connect/fastrack/e806c7d0-df86-4fdc-b7c7-7b417ce7223e/FT-logo-mob.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGS700Q8OKN8NF0004-e806c7d0-df86-4fdc-b7c7-7b417ce7223e-mbe7qDx" alt="">
+           </div>
+    
+           <div>
+            <select class="nav2select" onchange="location = this.value;"> 
+              <option value="index.html">BAGS & MORE</option> 
+              <option value="men.html">Styles For Guys</option> 
+              <option value="women.html">Styles For Girls</option> 
+            </select> 
+           </div>
+    
+           <div>
+            <select class="nav2select" onchange="location = this.value;"> 
+              <option value="index.html">PERFUMES</option> 
+              <option value="men.html">Shop For Guys</option> 
+              <option value="women.html">Shop For Girls</option> 
+            </select> 
+           </div>
+    
+            <div>
+                <a href="index.html">OFFERS & MORE</a>
+            </div>
+            <div><i class="fas fa-search"></i></div>
+       </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<div class = "box2">
+ <h4>Scan QR code using Paytm or your preferred UPI app</h4>
+ <img src = "https://staticpg.paytm.in/pgp/web/assets/logo.png"/>
+<img src = "https://staticpg.paytm.in/pgp/web/assets/ic-upi.svg"/>
+
+<img style="width: 100px;padding-left: 70%;" src = "./video/Shop Fashion Accessories For Men, Women & Kids - Fastrack_files/barcode.png"/>
+</div>
+<br>
+
+
+
+ <div class = "radio" >
+ <input type = "radio" name ="radio1"/>
+ <h5 >Debit Card</h5>
+
+</div>
+<div class = "card" >
+    <lable >Card Number</lable>
+    <input class = "cardNumber"  type = "number" placeholder="Enter your card Number"/>
+    <lable>Card Expiry Date</lable>
+    <input type = "text" placeholder="MM/YY"/>
+    <lable>CVV</lable>
+    <input type = "password" placeholder = "Enter your cvv"/>
+    <button id="btn1" class = "pay" onclick="pay()">Pay</button>
+    </div>
+    
+    
+    
+    <div class = "radio" name ="radio1">
+        <input type = "radio" name ="radio1"/>
+        <h5>Credit Card</h5>
+    
+    </div>
+    
+    <div class = "card" >
+        <lable >Card Number</lable>
+        <input  class = "cardNumber" type = "number" placeholder="Enter your card Number"/>
+        <lable>Card Expiry Date</lable>
+        <input type = "text" placeholder="MM/YY"/>
+        <lable>CVV</lable>
+        <input type = "password" placeholder = "Enter your cvv"/>
+        <button id="btn2" class = "pay">Pay</button>
+        </div>
+        
+        <div class = "radio">
+            <input type = "radio"  name = "radio1"/>
+            <h5> UPI   <input type = "text" placeholder="yourUPIhandle@bankname"></h5>
+            <button id="btn3"  class = "pay">Pay</button>
+        </div>
+
+        <form action="sucess.html">
+        <button  id="btn4" class="pay">SUBMIT</button>
+    </form>
+
+     <img style="width: 300px;padding-left: 67%;" src = "https://staticpg.paytm.in/pgp/web/assets/footer-new-logos.png"/>
+     
+    </div>
+    </div>
+    
+    
+    </body>
+    </html>
+           

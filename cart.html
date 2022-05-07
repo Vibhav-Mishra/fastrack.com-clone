@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./styles/cart.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,400&display=swap" rel="stylesheet">
+
+<body>
+
+    <div class="nav2">
+        <div class="left_nav2">
+    
+               <div> <i class="fas fa-map-marker-alt"></i></div>
+    
+               <div>
+                  <select class="nav2select" onchange="location = this.value;"> 
+                    <option value="index.html">WATCHES</option> 
+                    <option value="men.html">MEN</option> 
+                    <option value="women.html">WOMEN</option> 
+                  </select> 
+               </div>
+    
+               <div>
+                <select class="nav2select" onchange="location = this.value;"> 
+                  <option value="index.html">SMART & AUDIO</option> 
+                  <option value="men.html">Smart Bands</option> 
+                  <option value="women.html">Wireless Audio</option> 
+                </select> 
+             </div>
+             <div>
+                 <a href="eyewear.html">EYEWEAR</a>
+             </div>
+       </div>
+     
+       <div class="right_nav2">
+           <div id="logo">
+              <img src="https://www.fastrack.in/wps/wcm/connect/fastrack/e806c7d0-df86-4fdc-b7c7-7b417ce7223e/FT-logo-mob.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGS700Q8OKN8NF0004-e806c7d0-df86-4fdc-b7c7-7b417ce7223e-mbe7qDx" alt="">
+           </div>
+    
+           <div>
+            <select class="nav2select" onchange="location = this.value;"> 
+              <option value="index.html">BAGS & MORE</option> 
+              <option value="men.html">Styles For Guys</option> 
+              <option value="women.html">Styles For Girls</option> 
+            </select> 
+           </div>
+    
+           <div>
+            <select class="nav2select" onchange="location = this.value;"> 
+              <option value="index.html">PERFUMES</option> 
+              <option value="men.html">Shop For Guys</option> 
+              <option value="women.html">Shop For Girls</option> 
+            </select> 
+           </div>
+    
+            <div>
+                <a href="index.html">OFFERS & MORE</a>
+            </div>
+            <div><i class="fas fa-search"></i></div>
+       </div>
+    </div>
+    <div>
+      <img width="100%" src="https://www.fastrack.in/wps/wcm/connect/fastrack/330bade6-37d6-41d8-91a6-f6c8a67e1cdf/desktop/2500x400.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80OGS700Q8OKN8NF0004-330bade6-37d6-41d8-91a6-f6c8a67e1cdf-desktop-nUaSMLU" alt="">
+    
+        <h2 class="total_amount"></h2>
+
+
+
+
+
+
+
+    <button class="check_btn" onclick="window.location.href='payment.html'">Go To Check Out</button>
+    <div id="container"></div>
+</body>
+</html>
+<script src="./scripts/cart.js"></script>
+<script src="./scripts/mensData.js"></script>
